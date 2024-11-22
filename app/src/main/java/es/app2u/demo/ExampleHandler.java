@@ -1,12 +1,5 @@
 package es.app2u.demo;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-/*import es.app2u.beat.handler.ConnectionHandler;
-import es.app2u.beat.handler.Credentials;
-import es.app2u.beat.handler.JsonHandler;
-import es.app2u.beat.handler.Parameters;*/
 import io.reactivex.Completable;
 
 public class ExampleHandler {

@@ -5,8 +5,6 @@ import android.content.Context;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
-
 import com.google.android.material.snackbar.Snackbar;
 
 import es.app2u.viewutils.errormanagement.v2.Message;

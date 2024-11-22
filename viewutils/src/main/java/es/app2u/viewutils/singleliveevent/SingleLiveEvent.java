@@ -1,8 +1,5 @@
 package es.app2u.viewutils.singleliveevent;
 
-//  Created by Alfons Casale on 2020.
-//  Copyright © 2020 Alfons Casale Güell. All rights reserved.
-
 import android.util.Log;
 
 import androidx.annotation.MainThread;
@@ -50,4 +47,5 @@ public class SingleLiveEvent<T> extends MutableLiveData<T> {
     public void call() {
         setValue(null);
     }
+
 }

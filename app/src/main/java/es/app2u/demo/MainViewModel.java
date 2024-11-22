@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModel;
 import java.util.HashMap;
 import java.util.Map;
 
-//import es.app2u.dialogs.DialogBuilder;
 import es.app2u.viewutils.errormanagement.v2.ErrorsManager;
 import es.app2u.viewutils.errormanagement.v2.PopupNotifier;
 import es.app2u.viewutils.errormanagement.v2.messages.DialogMessage;
@@ -21,6 +20,7 @@ import es.app2u.viewutils.errormanagement.v2.messages.SnackBarDialog;
 import es.app2u.viewutils.errormanagement.v2.messages.SucceedDialogMessage;
 import es.app2u.viewutils.errormanagement.v2.messages.ToastMessage;
 import io.reactivex.observers.DisposableCompletableObserver;
+import ivanpg93.dialogs.DialogBuilder;
 
 
 public class MainViewModel extends ViewModel {
@@ -28,7 +28,7 @@ public class MainViewModel extends ViewModel {
     protected final PopupNotifier notifier = new PopupNotifier();
 
     public void showActionDialog() {
-        /*DialogBuilder builder = new DialogBuilder();
+        DialogBuilder builder = new DialogBuilder();
         builder.title("Hola!")
                 .message("Com estas? \n -- mirar resposta al Log TEST --")
                 .btnOK("Be")
@@ -36,7 +36,7 @@ public class MainViewModel extends ViewModel {
                 .listenerOK(((dialog, which) -> clickBe()))
                 .listenerNOK(((dialog, which) -> clickRegular()));
 
-        notifier.notifyMessage(new DialogMessage(builder));*/
+        notifier.notifyMessage(new DialogMessage(builder));
     }
 
     public void showErrorDialog() {

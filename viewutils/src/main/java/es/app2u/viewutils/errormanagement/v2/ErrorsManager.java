@@ -1,18 +1,11 @@
 package es.app2u.viewutils.errormanagement.v2;
 
-import android.text.TextUtils;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
 
-/*import es.app2u.beat.error.ConnectError;
-import es.app2u.beat.error.ConnectionError;
-import es.app2u.beat.error.ResponseError;
-import es.app2u.beat.error.TimeoutError;
-import es.app2u.beat.error.UnknownHostError;*/
 import es.app2u.viewutils.R;
 import es.app2u.viewutils.errormanagement.v2.messages.DialogMessage;
 import es.app2u.viewutils.errormanagement.v2.messages.Msg;

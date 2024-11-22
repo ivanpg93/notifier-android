@@ -4,13 +4,13 @@ import android.content.Context;
 
 import androidx.annotation.Nullable;
 
-/*import es.app2u.dialogs.DialogBuilder;
-import es.app2u.viewutils.R;*/
+import es.app2u.viewutils.R;
 import es.app2u.viewutils.errormanagement.v2.Message;
+import ivanpg93.dialogs.DialogBuilder;
 
 public class DialogMessage implements Message {
 
-    //private DialogBuilder builder;
+    private DialogBuilder builder;
     @Nullable private Msg title;
     @Nullable private Msg message;
 
@@ -19,13 +19,13 @@ public class DialogMessage implements Message {
         this.message = message;
     }
 
-    /*public DialogMessage(DialogBuilder builder) {
+    public DialogMessage(DialogBuilder builder) {
         this.builder = builder;
-    }*/
+    }
 
     @Override
     public void show(Context context) {
-        /*if (builder != null) {
+        if (builder != null) {
             builder.build(context);
             return;
         }
@@ -36,7 +36,7 @@ public class DialogMessage implements Message {
                 .title(titleStr)
                 .message(messageStr)
                 .btnOK(context.getString(R.string.ok))
-                .build(context);*/
+                .build(context);
     }
 
     @Override

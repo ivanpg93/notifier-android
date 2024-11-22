@@ -3,8 +3,6 @@ package es.app2u.viewutils.errormanagement.v2.messages;
 import android.content.Context;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
-
 import es.app2u.viewutils.errormanagement.v2.Message;
 
 public class ToastMessage implements Message {

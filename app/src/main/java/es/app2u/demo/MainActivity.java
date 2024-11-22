@@ -7,7 +7,6 @@ import androidx.lifecycle.ViewModelProvider;
 
 import es.app2u.viewutils.errormanagement.v2.PopupDispatcher;
 
-
 public class MainActivity extends AppCompatActivity {
 
     private MainViewModel viewModel;
@@ -28,6 +27,5 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.loading).setOnClickListener(v -> viewModel.showLoading());
         findViewById(R.id.progress).setOnClickListener(v -> viewModel.showProgress("Progress message"));
         findViewById(R.id.progressBar).setOnClickListener(v -> viewModel.showProgressBar());
-
     }
 }
