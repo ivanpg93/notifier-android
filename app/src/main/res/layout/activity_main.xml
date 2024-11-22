@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_marginTop="40dp">
+
+    <Button
+        android:id="@+id/show_action_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Action Dialog"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/show_error_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Error Dialog"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/show_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Dialog"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/show_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Toast"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/show_snack_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Snack Bar"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/show_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Request example"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Loading"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Progress"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Progress Bar"
+        android:layout_gravity="center"/>
+</LinearLayout>
