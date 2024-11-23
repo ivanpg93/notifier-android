@@ -4,9 +4,9 @@ import android.content.Context;
 
 import androidx.annotation.Nullable;
 
+import dialogs.DialogBuilder;
 import es.app2u.viewutils.R;
 import es.app2u.viewutils.errormanagement.v2.Message;
-import ivanpg93.dialogs.DialogBuilder;
 
 public class DialogMessage implements Message {
 

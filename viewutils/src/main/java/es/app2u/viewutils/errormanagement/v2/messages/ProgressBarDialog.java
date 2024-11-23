@@ -5,8 +5,8 @@ import android.content.DialogInterface;
 
 import androidx.annotation.Nullable;
 
+import dialogs.Dialog;
 import es.app2u.viewutils.errormanagement.v2.Message;
-import ivanpg93.dialogs.Dialog;
 
 public class ProgressBarDialog implements Message {
 

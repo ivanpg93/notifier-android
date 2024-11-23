@@ -24,19 +24,16 @@ android {
 }
 
 dependencies {
-    implementation files('../libs/dialogs-1.0.0.aar')
-
     implementation 'androidx.appcompat:appcompat:1.4.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
-
 
     // Rx
     implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
     // Handlers library
     implementation project(':viewutils')
+    implementation 'com.github.ivanpg93:dialogs-android:1.0.0'
     //implementation 'es.app2u.beat:dialogs:1.2.1'
     //implementation 'es.app2u.beat:handler:1.4.3'
-
 }

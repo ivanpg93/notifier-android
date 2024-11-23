@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModel;
 import java.util.HashMap;
 import java.util.Map;
 
+import dialogs.DialogBuilder;
 import es.app2u.viewutils.errormanagement.v2.ErrorsManager;
 import es.app2u.viewutils.errormanagement.v2.PopupNotifier;
 import es.app2u.viewutils.errormanagement.v2.messages.DialogMessage;
@@ -20,8 +21,6 @@ import es.app2u.viewutils.errormanagement.v2.messages.SnackBarDialog;
 import es.app2u.viewutils.errormanagement.v2.messages.SucceedDialogMessage;
 import es.app2u.viewutils.errormanagement.v2.messages.ToastMessage;
 import io.reactivex.observers.DisposableCompletableObserver;
-import ivanpg93.dialogs.DialogBuilder;
-
 
 public class MainViewModel extends ViewModel {
 
@@ -116,4 +115,5 @@ public class MainViewModel extends ViewModel {
         errorsMapper.put("picking_not_found", new Msg("El picking no existe"));
         return errorsMapper;
     }
+
 }
