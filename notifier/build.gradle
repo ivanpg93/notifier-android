@@ -35,8 +35,8 @@ dependencies {
     // Dialog
     implementation 'com.github.ivanpg93:dialogs-android:1.0.0'
 
-    //Handler
-    //implementation 'es.app2u.beat:handler:2.1.0'
+    // Handler
+    implementation 'com.github.ivanpg93:handlers-android:1.0.0'
 
 }
 
