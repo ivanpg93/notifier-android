@@ -1,6 +1,6 @@
 rootProject.name = "Demo"
 include ':app'
-include ':viewutils'
+include ':notifier'
 
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
